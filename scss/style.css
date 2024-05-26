@@ -52,12 +52,12 @@ body._lock {
   margin-top: 25px;
 }
 .header .header__container {
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0px auto;
   display: flex;
 }
 .header .header__container nav {
-  margin-left: 531px;
+  margin-left: 591px;
 }
 
 .menu__icon {
@@ -65,7 +65,7 @@ body._lock {
 }
 
 .main {
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0px auto;
   margin-top: 120px;
 }
@@ -80,14 +80,14 @@ body._lock {
 }
 .main p {
   line-height: 120%;
-  margin-left: 690px;
+  margin-left: 750px;
   margin-top: 20px;
   width: 334px;
 }
 .main a {
   display: inline-block;
   margin-top: 40px;
-  margin-left: 1080px;
+  margin-left: 1140px;
   padding: 65px 50px;
   background-color: #B61728;
   color: #fff;
@@ -98,7 +98,7 @@ body._lock {
 }
 
 .tabs-js {
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0px auto;
   margin-top: 150px;
 }
@@ -106,7 +106,7 @@ body._lock {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   line-height: 140%;
-  margin-left: 590px;
+  margin-left: 750px;
   margin-bottom: 20px;
 }
 
@@ -159,17 +159,17 @@ body._lock {
 }
 
 .tab-2 p {
-  margin-left: 685px;
+  margin-left: 725px;
   margin-bottom: 103px;
 }
 
 .tab-3 p {
-  margin-left: 1080px;
+  margin-left: 1140px;
   margin-bottom: 103px;
 }
 
 .who_we_are {
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0px auto;
   margin-top: 150px;
 }
@@ -177,17 +177,17 @@ body._lock {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   line-height: 140%;
-  margin-left: 690px;
+  margin-left: 750px;
   margin-bottom: 20px;
 }
 .who_we_are p {
   width: 395px;
   margin-bottom: 40px;
-  margin-left: 690px;
+  margin-left: 750px;
 }
 
 .faqs {
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -197,10 +197,10 @@ body._lock {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   line-height: 140%;
-  margin-left: 685px;
+  margin-left: 745px;
 }
 .faqs .faqs-list {
-  margin-left: 685px;
+  margin-left: 745px;
 }
 
 .faq-header {
@@ -262,7 +262,7 @@ body._lock {
 }
 
 .reviews {
-  width: 1440px;
+  width: 1500px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -270,7 +270,7 @@ body._lock {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   line-height: 140%;
-  margin-left: 685px;
+  margin-left: 745px;
 }
 
 div.div-slider {
@@ -279,7 +279,7 @@ div.div-slider {
 div.div-slider .slider-text {
   font-size: 30px;
   line-height: 125%;
-  margin-left: 130px;
+  margin-left: 190px;
   width: 952px;
 }
 div.div-slider .slider-name {
@@ -287,7 +287,7 @@ div.div-slider .slider-name {
   line-height: 120%;
   margin-top: 20px;
   text-transform: uppercase;
-  margin-left: 130px;
+  margin-left: 190px;
 }
 div.div-slider .slider-name span {
   color: #B61728;
@@ -322,7 +322,7 @@ div.div-slider .slider-name span {
 }
 
 .prev-button {
-  left: 1345px;
+  left: 1405px;
 }
 
 .next-button {
@@ -330,7 +330,7 @@ div.div-slider .slider-name span {
 }
 
 .publications {
-  width: 1440px;
+  width: 1500px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -338,12 +338,12 @@ div.div-slider .slider-name span {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   line-height: 140%;
-  margin-left: 685px;
+  margin-left: 745px;
 }
 
 .filter-ul {
   margin: 20px 0 40px 0;
-  margin-left: 685px;
+  margin-left: 745px;
 }
 
 .filter-ul ul {
@@ -359,7 +359,7 @@ div.div-slider .slider-name span {
 .box {
   font-size: 28px;
   line-height: 130%;
-  margin-left: 685px;
+  margin-left: 745px;
   padding: 35px 0;
   border-top: #909090 solid 1px;
   border-bottom: #909090 solid 1px;
@@ -505,7 +505,7 @@ footer {
 }
 
 .footer__textblock {
-  margin-left: 507px;
+  margin-left: 567px;
 }
 .footer__textblock a {
   color: #fff;
