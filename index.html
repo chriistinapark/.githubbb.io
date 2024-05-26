@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul>
+                        <li><a data-goto=".tabs-js" href="#" class="menu__link">What we do</a></li>
+                        <li><a data-goto=".faqs" href="#" class="menu__link">FAQS</a></li>
+                        <li><a data-goto=".reviews" href="#" class="menu__link">Reviews</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <h1>Making places <br> <span>for</span> people</h1>
+            <p>PCA work imaginatively with our clients to deliver  high quality, design led residential, community and commercial projects that add value and create delight.</p>
+            <a href="#popup" class="popup-link">Submit</a>
+        </section>
+
+        <section class="tabs-js">
+            <h2>What we do</h2>
+            <div class="container">
+                <div id="tabs-1" class="tabs">
+                    <div class="tabs__nav tabs-nav">
+                        <div class="tabs-nav__item tabs-nav__item1 is-active" data-tab-name="tab-1">Listening to your stories</div>
+                        <div class="tabs-nav__item tabs-nav__item2" data-tab-name="tab-2">Solving problems & seeing opportunities</div>
+                        <div class="tabs-nav__item tabs-nav__item3" data-tab-name="tab-3">Realising potential</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tab is-active tab-1">
+                            <p>Listening carefully to clients and building users helps to identify <br> the unique set of requirements for each project. Combining this <br> with in depth research about the local context and <br> sustainability enables a clear brief to be agreed.</p>
+                            <img src="images/tab1.png" alt="building">
+                        </div>
+                        <div class="tab tab-2">
+                            <p>Considered, thoughtful architecture can promote a <br> sense of wellbeing, social value and community <br> cohesion. PCA are therefore committed to giving equal <br> weight to intelligent, people centred design that <br> improves the quality of life for its users as well as the <br> function, cost and build ability requirements of the <br> building.</p>
+                            <img src="images/tab2.png" alt="building">
+                        </div>
+                        <div class="tab tab-3">
+                            <p>Once the brief is established, we work hard to find <br> creative solutions to the unique requirements of each <br> project. Every project is different, and we give an <br> individually tailored response to suit the specific needs <br> of your brief. Communicating our ideas clearly and <br> simply and explaining the process as we move through <br> the project is essential.</p>
+                            <img src="images/tab3.png" alt="building">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="who_we_are">
+            <h2>Who we are</h2>
+            <p>
+                Once the brief is established, we work hard to find creative solutions to the unique requirements of each project. Every project is different, and we give an individually tailored response to suit the specific needs of your brief. Communicating our ideas clearly and simply and explaining the process as we move through the project is essential. 
+            </p>
+            <img src="images/who we are.png" alt="people">
+        </section>
+
+        <section class="faqs">
+            <h2>FAQS</h2>
+            <div class="faqs-list">
+                <div class="faq faq-item js-faq">
+                  <div class="faq-header js-faq-trigger"> 
+                    <div class="faq-title">Why Do I need an Architect?</div>
+                    <div class="faq-icon">
+                      <img class="faq-icon-minus" src="images/minus.png" alt="">
+                      <img class="faq-icon-plus" src="images/plus.png" alt="">
+                    </div>
+                  </div>
+                  <div class="faq-text">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+                <div class="faq faq-item js-faq">
+                    <div class="faq-header js-faq-trigger"> 
+                      <div class="faq-title">How do I set my Project Brief?</div>
+                      <div class="faq-icon">
+                        <img class="faq-icon-minus" src="images/minus.png" alt="">
+                        <img class="faq-icon-plus" src="images/plus.png" alt="">
+                      </div>
+                    </div>
+                    <div class="faq-text">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+                <div class="faq faq-item js-faq">
+                    <div class="faq-header js-faq-trigger"> 
+                      <div class="faq-title">Can you design furniture and kitchens?</div>
+                      <div class="faq-icon">
+                        <img class="faq-icon-minus" src="images/minus.png" alt="">
+                        <img class="faq-icon-plus" src="images/plus.png" alt="">
+                      </div>
+                    </div>
+                    <div class="faq-text">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+                <div class="faq faq-item js-faq">
+                    <div class="faq-header js-faq-trigger"> 
+                      <div class="faq-title">What are the Different Phases a Project goes through?</div>
+                      <div class="faq-icon">
+                        <img class="faq-icon-minus" src="images/minus.png" alt="">
+                        <img class="faq-icon-plus" src="images/plus.png" alt="">
+                      </div>
+                    </div>
+                    <div class="faq-text">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+                <div class="faq faq-item js-faq">
+                    <div class="faq-header js-faq-trigger"> 
+                      <div class="faq-title">How Much will your Services Cost?</div>
+                      <div class="faq-icon">
+                        <img class="faq-icon-minus" src="images/minus.png" alt="">
+                        <img class="faq-icon-plus" src="images/plus.png" alt="">
+                      </div>
+                    </div>
+                    <div class="faq-text">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+                <div class="faq faq-item js-faq">
+                    <div class="faq-header faq-header__border js-faq-trigger"> 
+                      <div class="faq-title">Which Areas do you cover?</div>
+                      <div class="faq-icon">
+                        <img class="faq-icon-minus" src="images/minus.png" alt="">
+                        <img class="faq-icon-plus" src="images/plus.png" alt="">
+                      </div>
+                    </div>
+                    <div class="faq-text faq-text__last">Your brief should be clear and unambiguous and it should enshrine a <br> common understanding between you and your architect. Seek the <br> architect’s help in formulating the brief.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Reviews</h2>
+            <div class="slider-container">
+                <div class="slider">
+                  <div class="div-slider">
+                    <img src="images/slider1.png" alt="woman">
+                    <div>
+                        <p class="slider-text">“Nicola Chambers has worked with us on four different planning / listed building applications over the past few years. She has also assisted with specifications for building works, again with great care and attention to detail. I would wholeheartedly recommend Pardon Chambers to anyone looking for a dedicated firm of architects.“</p>
+                        <p class="slider-name"><span>Annet</span> /Lawer</p>
+                    </div>
+                  </div>
+                  <div class="div-slider">
+                    <img src="images/slider2.png" alt="woman">
+                    <div>
+                        <p class="slider-text">“Nicola Chambers has worked with us on four different planning / listed building applications over the past few years. She has also assisted with specifications for building works, again with great care and attention to detail. I would wholeheartedly recommend Pardon Chambers to anyone looking for a dedicated firm of architects.“</p>
+                    <p class="slider-name"><span>Hannah</span> /Lawer</p>
+                    </div>
+                  </div>
+                  <div class="div-slider">
+                    <img src="images/slider3.png" alt="woman">
+                    <div>
+                        <p class="slider-text">“Nicola Chambers has worked with us on four different planning / listed building applications over the past few years. She has also assisted with specifications for building works, again with great care and attention to detail. I would wholeheartedly recommend Pardon Chambers to anyone looking for a dedicated firm of architects.“</p>
+                    <p class="slider-name"><span>Chloe</span> /Lawer</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="prev-button" aria-label="Посмотреть предыдущий слайд"><img src="images/left.png" alt="arrow left"></button>
+                <button class="next-button" aria-label="Посмотреть следующий слайд"><img src="images/right.png" alt="arrow right"></button>
+              </div>
+        </section>
+
+        <section class="publications">
+            <h2>Publications</h2>
+            <div class="container">
+                <div class="filter-ul">
+                    <ul>
+                        <li data-f="all" class="year-2020">All</li>
+                        <li data-f="2020" class="year-2021">2020</li>
+                        <li data-f="2021" class="year-2022">2021</li>
+                        <li data-f="2022" class="year-2023">2022</li>
+                    </ul>
+                </div>
+                <div class="block-cover">
+                    <div class="box 2021">
+                        <a href="#">Houzz September 2021 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                    <div class="box 2021">
+                        <a href="#">Rethinking The Future, 2021 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                    <div class="box 2020">
+                        <a href="#">Home World Design, 2020 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                    <div class="box 2021">
+                        <a href="#">Archello, 2021 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                    <div class="box 2020">
+                        <a href="#">My House Idea, 2020 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                    <div class="box 2022 box-border">
+                        <a href="#">Hertfordshire Chamber of Commerce, 2022 <img src="images/right.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__content">
+                <div>
+                    <img class="footer__logo" src="images/logo2.png" alt="logo">
+                </div>
+                <div class="footer__textblock">
+                    <p class="footer__title">Hertfordshire</p>
+                    <img src="images/line.png" alt="line">
+                    <p class="footer__text">2-4 North Street <br> Bishop’s Stortford <br>  CM23 2LQ</p>
+                    <a href="tel:01279909988">01279 909 988</a>
+                </div>
+                <div class="footer__textblock-right">
+                    <p class="footer__title">London</p>
+                    <img src="images/line.png" alt="line">
+                    <p class="footer__text">Eagle House  <br> 163 City Road <br> London EC1V 1NR</p>
+                    <a href="tel:02070961388">020 7096 1388</a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="#">youtube</a>
+                <a href="#">twitter</a>
+                <a href="#">telegram</a>
+            </div>
+        </div>
+    </footer>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close close-popup">x</a>
+                <div class="popup__title">Please submit</div>
+                <div class="popup__text">Get in touch. To discuss your project, please send us a message using the form.</div>
+                <form method="get" class="popup__form">
+                    <input type="email" name="your_email" id="email" placeholder="E-mail">
+                    <button id="submit">go</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
